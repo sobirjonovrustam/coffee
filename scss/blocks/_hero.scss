@@ -1,0 +1,243 @@
+.hero {
+    &__container {
+        // max-width: 1280px;
+        // width: 100%;
+        background-image: url(./../images/coffee_bg_image.jpg);
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 117px 702px 117px 85px;
+        margin-bottom: 136px;
+    }
+
+    &__container-img {
+        // max-width: 1280px;
+        // width: 100%;
+        background-image: url(./../images/coffee_bg_image2.jpg);
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 137px 750px 137px 85px;
+        margin-bottom: 168px;
+    }
+    
+    &__container-image {
+        // max-width: 1280px;
+        // width: 100%;
+        background-image: url(./../images/coffee_bg_image3.jpg);
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 134px 709px 134px 85px;
+        margin-bottom: 168px;
+    }
+    // .hero__left-wrapper
+    
+    &__left-wrapper {
+        width: 493px;
+    }
+    
+    // .hero__heading
+    
+    &__heading {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    
+    // .hero__text
+    
+    &__text {
+        width: 445px;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        opacity: 0.8;
+        margin: 0;
+        margin-bottom: 55px;
+    }
+    
+    // .hero__link
+    
+    &__link {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FEFCF7;
+        background: #0E8784;
+        cursor: pointer;
+        border-radius: 6px;
+        padding: 15px 31px;
+    }
+    
+    &__link:hover {
+        background: #66D2CF;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        &__container {
+            // width: 689px;
+            background-image: url(./../images/coffee_bg_image_table.jpg);
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            padding: 104px 233px 104px 58px;
+            margin-bottom: 136px;
+        }
+        
+        &__container-img {
+            // width: 1280px;
+            // height: 450px;
+            background-image: url(./../images/coffee_bg_image2_table.jpg);
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            padding: 118px 233px 118px 58px;
+            margin-bottom: 168px;
+        }
+        
+        &__container-image {
+            // width: 1280px;
+            // height: 450px;
+            background-image: url(./../images/coffee_bg_image3_table.jpg);
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            padding: 127px 233px 127px 58px;
+            margin-bottom: 168px;
+        }
+
+        // .hero__left-wrapper
+        
+        &__left-wrapper {
+            width: 398px;
+        }
+        
+        // .hero__heading
+        
+        &__heading {
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 40px;
+            color: #FEFCF7;
+            margin-bottom: 32px;
+        }
+        
+        // .hero__text
+        
+        &__text {
+            width: 398px;
+            font-family: 'Barlow';
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            opacity: 0.8;
+            margin-bottom: 55px;
+        }
+        
+        // .hero__link
+        
+        &__link {
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            color: #FEFCF7;
+            background: #0E8784;
+            cursor: pointer;
+            border-radius: 6px;
+            padding: 15px 31px;
+        }
+        
+        &__link:hover {
+            background: #66D2CF;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .hero {
+        &__container {
+            // width: 689px;
+            // height: 500px;
+            background-image: url(./../images/coffee_bg_image_mobile.jpg);
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            padding: 100px 24px;
+            margin-bottom: 136px;
+        }
+        
+        &__container-img {
+            // width: 1280px;
+            // height: 450px;
+            background-image: url(./../images/coffee_bg_image2_mobile.jpg);
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            padding: 111px 24px 87px 24px;
+            margin-bottom: 168px;
+        }
+        
+        &__container-image {
+            // width: 1280px;
+            // height: 450px;
+            background-image: url(./../images/coffee_bg_image3_mobile.jpg);
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            padding: 127px 233px 127px 58px;
+            margin-bottom: 168px;
+        }
+
+        // .hero__left-wrapper
+        
+        &__left-wrapper {
+            max-width: 279px;
+            width: 100%;
+        }
+        
+        // .hero__heading
+        
+        &__heading {
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 28px;
+            text-align: center;
+            color: #FEFCF7;
+            margin-bottom: 32px;
+        }
+        
+        // .hero__text
+        
+        &__text {
+            max-width: 400px;
+            width: 100%;
+            font-family: 'Barlow';
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            text-align: center;
+            opacity: 0.8;
+            margin-bottom: 55px;
+        }
+        
+        // .hero__link
+        
+        &__link {
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            color: #FEFCF7;
+            background: #0E8784;
+            cursor: pointer;
+            border-radius: 6px;
+            padding: 15px 31px;
+        }
+        
+        &__link:hover {
+            background: #66D2CF;
+        }
+    }
+    
+}

@@ -1,0 +1,148 @@
+.our-commit {
+    
+    // .our-commit__inner-wrapper
+    
+    &__inner-wrapper {
+        max-width: 1120px;
+        width: 100%;
+        margin-bottom: 256px;
+    }
+    
+    // .our-commit__container
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    // .our-commit__right-wrapper
+    
+    &__right-wrapper {
+        max-width: 540px;
+        width: 100%;
+    }
+    
+    // .our-commit__heading
+    
+    &__heading {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    
+    // .our-commit__text
+    
+    &__text {
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        opacity: 0.8;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .our-commit {
+    
+        // .our-commit__inner-wrapper
+        
+        &__inner-wrapper {
+            max-width: 689px;
+            margin-bottom: 144px;
+        }
+        
+        // .our-commit__container
+        
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        // .our-commit__right-wrapper
+        
+        &__right-wrapper {
+            max-width: 339px;
+            width: 100%;
+        }
+        
+        // .our-commit__heading
+        
+        &__heading {
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            color: #333D4B;
+            margin: 0;
+            margin-bottom: 32px;
+        }
+        
+        // .our-commit__text
+        
+        &__text {
+            font-family: 'Barlow';
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #333D4B;
+            opacity: 0.8;
+            margin: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .our-commit {
+    
+        // .our-commit__inner-wrapper
+        
+        &__inner-wrapper {
+            max-width: 689px;
+            margin-bottom: 144px;
+        }
+        
+        // .our-commit__container
+        
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        // .our-commit__right-wrapper
+        
+        &__right-wrapper {
+            max-width: 327px;
+            width: 100%;
+        }
+        
+        // .our-commit__heading
+        
+        &__heading {
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 48px;
+            color: #333D4B;
+            margin-top: 48px;
+            margin-bottom: 32px;
+        }
+        
+        // .our-commit__text
+        
+        &__text {
+            font-family: 'Barlow';
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #333D4B;
+            opacity: 0.8;
+        }
+    }
+}

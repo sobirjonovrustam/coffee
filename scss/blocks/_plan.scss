@@ -1,0 +1,146 @@
+.plan {
+    
+    // .plan__container
+    
+    &__container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    // .plan__left-list
+    
+    &__left-list {
+        width: 255px;
+    }
+    
+    // .plan__left-item
+    
+    &__left-item {
+    }
+    
+    &__left-item-link {
+        text-decoration: none;
+    }
+    
+    // .plan__left-item-text
+    
+    &__left-item-text {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+        opacity: 0.4;
+        margin-bottom: 24px;
+
+        &-active {
+            opacity: 1;
+        }
+    }
+    
+    // .plan__left-item-number
+    
+    &__left-item-number {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-right: 25.5px;
+    }
+    
+    &__line {
+        width: 255px;
+        height: 1px;
+        display: inline-block;
+        background: #83888F;
+        opacity: 0.25;
+        margin-bottom: 24px;
+    }
+    
+    // .plan__right-list
+    
+    &__right-list {
+        max-width: 730px;
+    }
+    
+    // .plan__right-item
+    
+    &__right-item {
+        margin-bottom: 88px;
+    }
+    
+    // .plan__right-wrapper
+    
+    &__right-item-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 56px;
+    }
+    
+    // .plan__right-item-heading
+    
+    &__right-item-heading {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888F;
+    }
+    
+    // .plan__right-form-wrapper
+    
+    &__form {
+        width: 730px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    // .plan__label
+    
+    &__label {   
+    }
+    
+    // .plan__input
+    
+    &__input {
+        display: none;
+        
+        &:checked ~ .plan__wrapper {
+            background-color: #0E8784;
+            color: #fff;
+        }
+    }
+    
+    &__wrapper {
+        display: block;
+        width: 228px;
+        min-height: 250px;
+        background: #F4F1EB;
+        border-radius: 8px;
+        padding: 32px 28px 84px 28px;
+        color: #333D4B;
+
+        &:hover {
+            background-color: #FDD6BA;
+        }
+    }
+    
+    &__right-item-form-heading {
+        display: block;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+    
+    // .plan__right-item-form-text
+    
+    &__right-item-form-text {
+        display: block;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

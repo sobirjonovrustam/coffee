@@ -1,0 +1,199 @@
+.services {
+    
+    // .services__inner-container
+    
+    &__inner-container {
+        max-width: 1151px;
+        width: 100%;
+    }
+    
+    // .services__container
+    
+    &__container {
+        padding-top: 126px;
+        background-image: url(./../images/Group.png);
+        background-repeat: no-repeat;
+        top: 0;
+        left: 0;
+        margin-bottom: 200px;
+    } 
+    
+    // .services__list
+    
+    &__list {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    
+    // .services__item
+    
+    &__item {
+        max-width: 255px;
+        width: 100%;
+    }
+    
+    &__item-wrapper {
+        
+    }
+    
+    // .services__item-heading
+    
+    &__item-heading {
+        text-align: center;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+        margin-top: 72px;
+        margin-bottom: 24px;
+    }
+    
+    // .services__item-text
+    
+    &__item-text {
+        text-align: center;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .services {
+        
+        // .services__inner-container
+        
+        &__inner-container {
+            max-width: 729px;
+            width: 100%;
+        }
+        
+        // .services__container
+        
+        &__container {
+            padding-top: 60px;
+            // width: 689px;
+            background-image: url(./../images/Group_table.png);
+            background-repeat: no-repeat;
+            top: 0;
+            left: 0;
+            // margin-bottom: 200px;
+        } 
+        
+        // .services__list
+        
+        &__list {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        // .services__item
+        
+        &__item {
+            max-width: 573px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 36px;
+            margin-bottom: 32px;
+        }
+        
+        &__item-wrapper {
+            max-width: 282px;
+        }
+        
+        // .services__item-heading
+        
+        &__item-heading {
+            text-align: start;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #333D4B;
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+        
+        // .services__item-text
+        
+        &__item-text {
+            text-align: start;
+            font-family: 'Barlow';
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #333D4B;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .services {
+        
+        // .services__inner-container
+        
+        &__inner-container {
+            max-width: 367px;
+            width: 100%;
+        }
+        
+        // .services__container
+        
+        &__container {
+            padding-top: 60px;
+            // width: 689px;
+            background-image: url(./../images/Group_mobile.png);
+            background-repeat: no-repeat;
+            top: 0;
+            left: 0;
+            // margin-bottom: 200px;
+        } 
+        
+        // .services__list
+        
+        &__list {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 72px;
+        }
+        
+        // .services__item
+        
+        &__item {
+            max-width: 282px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 48px;
+        }
+
+        &_item-img {
+            width: 200px;
+            height: 151px;
+        }
+        
+        &__item-wrapper {
+            max-width: 282px;
+        }
+        
+        // .services__item-heading
+        
+        &__item-heading {
+            text-align: center;
+        }
+        
+        // .services__item-text
+        
+        &__item-text {
+            text-align: center;
+        }
+    }
+}
